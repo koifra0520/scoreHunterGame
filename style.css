@@ -1,0 +1,47 @@
+.description {
+    text-align: center;
+}
+
+.message {
+    text-align: center;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    width: 600px;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    border-radius: 10%;
+    cursor: pointer;
+    background-color: white;
+}
+
+.board-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-bottom: 5px;
+    width: 440px;
+    margin: 0 auto;
+}
+
+.red{
+    color: coral;
+    background-color: blanchedalmond;
+}
+
+.blue {
+    color: cornflowerblue;
+    background-color: lavender;
+}
